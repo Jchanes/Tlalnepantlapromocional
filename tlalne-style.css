@@ -17,6 +17,17 @@ body {
 .container,
 .col-sm {
     background-color: var(--container-bg-color);
+    display: grid;
+}
+
+#arcos-foto {
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.historia {
+    padding-top: 5%;
 }
 
 ul,
@@ -25,11 +36,18 @@ h5 {
     margin: none;
 }
 
-h1,
-h3 {
+h1 {
     text-align: center;
+    background-color: var(--bg-color);
 }
 
-footer {
-    background-color: var(--footer-bg-color);
+h2 {
+    text-align: center;
+    background-color: var(--bg-color);
+}
+
+.fotoVisita {
+    width: 500px;
+    height: auto;
+    margin: 5% auto 5% auto;
 }
