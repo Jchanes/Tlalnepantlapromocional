@@ -1,0 +1,35 @@
+:root {
+    --bg-color: #FFDE4D;
+    --container-bg-color: #F3FEB8;
+    --header-bg-color: #ffb22c;
+    --footer-bg-color: #FF4C4C;
+    color: var(--text)
+}
+
+header {
+    background-color: var(--container-bg-color);
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.container,
+.col-sm {
+    background-color: var(--container-bg-color);
+}
+
+ul,
+h5 {
+    list-style: none;
+    margin: none;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+footer {
+    background-color: var(--footer-bg-color);
+}
