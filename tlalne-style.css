@@ -26,6 +26,13 @@ body {
     margin-right: auto;
 }
 
+.fotoHistoria {
+    display: inline-block;
+    height: 300px;
+    width: auto;
+    margin: auto;
+}
+
 .historia {
     padding-top: 5%;
 }
