@@ -6,12 +6,23 @@
     color: var(--text)
 }
 
-header {
-    background-color: var(--container-bg-color);
-}
-
 body {
     background-color: var(--bs);
+}
+
+header {
+    background-image: url("./tlalne-img/headerbanner.jpeg   ");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    margin-bottom: 20px;
 }
 
 .container,
@@ -57,4 +68,12 @@ h2 {
     width: 500px;
     height: auto;
     margin: 5% auto 5% auto;
+}
+
+footer {
+    background-image: url("./tlalne-img/footerbanner.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
 }
