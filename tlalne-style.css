@@ -6,63 +6,97 @@
     color: var(--text)
 }
 
-body {
-    background-color: var(--bs);
+html, body{
+    height: 100%;
+    margin:  0;
+    display: flex;
+    flex-direction: column;
 }
 
-header {
-    background-image: url("./tlalne-img/headerbanner.jpeg   ");
+header{
+    padding: 10px;
+    height: 10%;
+}
+
+.header, nav{
+    background-image: url(./tlalne-img/headerbanner.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    background-attachment: fixed;
+    margin-bottom: 5%;
+    font-family: 'Oswald';
+    font-size: 150%;
+
 }
+
+#glifoTlalne{
+    display: flex;
+    width: 40%;
+    height: auto;
+}
+
+
 
 main {
+    margin-top: -10%;
+    flex: 1;
     display: flex;
-    margin-bottom: 50px;
     margin-left: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 5%;
 }
 
-.container,
-.col-sm {
+.container,.col-sm {
     background-color: var(--container-bg-color);
+}
+
+#visita{
     display: grid;
 }
 
-#arcos-foto {
-    padding-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
+#inicio{
+    display: grid;
+}
+
+.container .titulo {
+    height: 400px;
+    background-image: url("./tlalne-img/tlalne-arcos.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 
 .fotoHistoria {
-    display: inline-block;
+    display: flex;
     height: 300px;
     width: auto;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
 }
 
 .historia {
     padding-top: 5%;
 }
 
-ul,
-h5 {
+#mapa{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+ul,h5 {
     list-style: none;
     margin: none;
 }
 
-h1 {
+h1, h2{
     text-align: center;
     background-color: var(--bg-color);
+    background-size: contain;
+    margin-top: 10% ;
+    margin-bottom: 5%;
 }
 
-h2 {
-    text-align: center;
-    background-color: var(--bg-color);
-}
 
 .fotoVisita {
     width: 500px;
@@ -70,10 +104,69 @@ h2 {
     margin: 5% auto 5% auto;
 }
 
-footer {
+#informes .container{
+    display: flex;
+}
+
+#informes .container p{
+    font-size: larger;
+}
+
+#form{
+margin-top: 5%;}
+
+#informes p{
+    font-size: 30px;
+    margin: 0 0 0 0;
+}
+
+#img-informes{
+    width: 100%;
+    height: auto;
+    margin: 0;
+
+}
+
+
+#informes .col-sm .labels{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    padding-bottom: 0%;
+}
+
+
+#informes .inputs input{
+    font-size: 14px;
+    display: flex;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#informes .col-sm span{
+    padding-bottom: 20px;
+    display: flex;
+}
+
+
+
+
+footer{
+    height: 40px;
     background-image: url("./tlalne-img/footerbanner.jpeg");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: 100%;
-    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Montserrat';
+    font-weight: bold;
 }
+
+footer p{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    text-align: center;
+}
+
